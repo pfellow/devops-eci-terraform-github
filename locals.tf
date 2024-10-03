@@ -15,5 +15,21 @@ locals {
       topics             = ["devops", "terraform"]
       visibility         = "public"
     }
+
+     "devops-eci-terraform-aws-network" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "devops-eci-terraform-aws-network"
+      topics             = ["devops", "terraform"]
+      visibility         = "public"
+    }
+
+    "devops-eci-terraform-aws-cluster" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "devops-eci-terraform-aws-cluster"
+      topics             = ["devops", "terraform"]
+      visibility         = "public"
+    }
   }
 }
