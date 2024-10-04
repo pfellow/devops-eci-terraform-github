@@ -31,5 +31,13 @@ locals {
       topics             = ["devops", "terraform"]
       visibility         = "public"
     }
+
+    "devops-eci-service" = {
+      description        = "Example product service"
+      gitignore_template = "Go"
+      name               = "devops-eci-service"
+      topics             = ["devops"]
+      visibility         = "private"
+    }
   }
 }
